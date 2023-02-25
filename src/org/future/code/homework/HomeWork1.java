@@ -45,9 +45,7 @@ public class HomeWork1 {
         }
         String[] rollCall() {
            String[] calls = new String[1];
-            for (int i = 0; i < calls.length; i++) {
-                calls[i] = getStudents()[i].announce();
-            }
+                calls[0] = getStudents()[0].announce();
             return calls;
         }
 
